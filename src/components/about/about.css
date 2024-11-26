@@ -1,0 +1,45 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.about-heading {
+  flex: 1;
+  font-size: 112px;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+@media (max-width: 980px) {
+  .about {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .about-heading {
+    flex: none;
+    font-size: 88px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    gap: 24px;
+  }
+
+  .about-heading {
+    font-size: 56px;
+  }
+
+  .about-text {
+    flex: none;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}

@@ -1,0 +1,172 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.work-box {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  height: 600px;
+  transition: transform 0.2s;
+}
+
+.work-box:hover {
+  transform: scale(1.018);
+}
+
+.work-box-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.inner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 96px;
+  margin-right: 24px;
+}
+
+.work-label {
+  display: flex;
+  padding: 8px 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 38px;
+  background: #000;
+  width: fit-content;
+}
+
+.label-text {
+  color: #fff;
+  font-family: var(--font-paralucentdemi);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.work-subtext {
+  font-family: var(--font-paralucentdemi);
+  font-size: 20px;
+  color: black;
+  letter-spacing: 0.2px;
+}
+
+.work-box-img {
+  background-color: transparent;
+  padding: 16px;
+  padding-left: 0;
+  flex: 1;
+  margin: 0;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project2 {
+  background-color: #c3b8ff;
+}
+
+.project3 {
+  background-color: #cdebf5;
+}
+
+.project4 {
+  background-color: #f0723c;
+}
+
+.purple {
+  color: #c3b8ff;
+}
+
+.white {
+  color: #fff;
+}
+
+.whitebg {
+  background-color: #fff;
+}
+
+.black {
+  color: #f0723c;
+}
+
+@media (max-width: 1280px) {
+  .inner-text {
+    margin: 72px;
+    gap: 12px;
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: 980px) {
+  .work {
+    gap: 20px;
+  }
+
+  .inner-text {
+    margin: 28px;
+    margin-top: 0px;
+    gap: 12px;
+  }
+
+  .work-box {
+    flex-direction: column-reverse;
+    gap: 16px;
+    height: auto;
+  }
+
+  .work-box-text {
+    justify-content: center;
+  }
+
+  .work-box-img {
+    padding: 16px;
+    flex: none;
+  }
+
+  .project-image {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .work-subtext {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+  }
+
+  .project-image {
+    height: 300px;
+  }
+
+  .work-label {
+    padding: 8px 16px;
+    margin-bottom: 4px;
+  }
+
+  .label-text {
+    font-size: 12px;
+  }
+
+  .work-box-img {
+    padding: 12px;
+  }
+
+  .inner-text {
+    margin: 16px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    gap: 8px;
+  }
+}

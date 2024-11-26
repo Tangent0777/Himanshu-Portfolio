@@ -1,0 +1,33 @@
+.subheading {
+  color: #888888;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 156px 0;
+}
+
+.purple {
+  color: #b984fd;
+}
+
+@media (max-width: 1080px) {
+  .subheading {
+    font-size: 20px;
+  }
+
+  .hero {
+    padding: 104px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 56px 0;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+}
