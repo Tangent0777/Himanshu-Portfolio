@@ -43,7 +43,7 @@ export default function Content() {
             <div className="intro-box-inner">
               <p className="intro-subtext">My Role</p>
               <p className="intro-text">
-                Product Designer, Research, Prototyping
+                Product Analyst, Research, Prototyping
               </p>
             </div>
             <div className="intro-box-inner">
