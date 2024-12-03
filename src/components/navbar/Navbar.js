@@ -18,7 +18,7 @@ export default function Navbar() {
           </div>
         </a>
         <a
-          href=""
+          href="https://drive.google.com/file/d/1B7iaEJADwFzqHww-qlCH3maoqQeOFdvA/view?usp=drivesdk"
           target="_blank"
         >
           <div className="external-link">
