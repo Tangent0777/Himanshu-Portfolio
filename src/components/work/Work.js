@@ -10,13 +10,13 @@ export default function Work() {
   return (
     <div className="work mainbox">
      
-     <a href="https://drive.google.com/file/d/1B5HjcJioiQIfMNxRc9jUN8ve23sJ0xCP/view?usp=drivesdk">
+     <a href="https://drive.google.com/file/d/1DfkRXifv8W3PY4Y2CYh7CwB8PPQmCg-M/view?usp=drivesdk">
         <div className="work-box project2">
           <div className="work-box-text">
             <div className="inner-text">
-              <div className="work-label">
+              {/* <div className="work-label">
                 <p className="label-text ">App Design - Sprint</p>
-              </div>
+              </div> */}
               <h2 className="work-heading">Promoting Circularity in Fashion Industry</h2>
               <p className="work-subtext">
                 Created a Circular Model to Prolong the Lifespan of Clothing Through Repair, Resale and Recycling to Reduce Waste and Pollution
@@ -32,9 +32,9 @@ export default function Work() {
         <div className="work-box project3">
           <div className="work-box-text">
             <div className="inner-text">
-              <div className="work-label">
+              {/* <div className="work-label">
                 <p className="label-text ">App Design - Sprint</p>
-              </div>
+              </div> */}
               <h2 className="work-heading">Preventing Wrong UPI Payments</h2>
               <p className="work-subtext">
                 New UPI feature to solve the issue of accidentaly sending money
@@ -51,9 +51,9 @@ export default function Work() {
         <div className="work-box project4">
           <div className="work-box-text">
             <div className="inner-text">
-              <div className="work-label whitebg">
+              {/* <div className="work-label whitebg">
                 <p className="label-text black">Web Design</p>
-              </div>
+              </div> */}
               <h2 className="work-heading white">Ratna Lahiri Sitar</h2>
               <p className="work-subtext white">
                 Landing page and Website Design
